@@ -7,16 +7,16 @@ kubectl get pods
 kubectl run nginx --image=nginx --generator=run-pod/v1
 
 # Command to describe pod metadata
-kubectl describe po podsname
+kubectl describe po nginx
 
 # Command to delete pods
-kubectl delete po podsname
+kubectl delete po nginx
 
 # Command to create pods using YAML
 kubectl create -f filename.yaml
 
 # Command to edit pod configuration directly
-kubectl edit po podsname
+kubectl edit po redis
 
 OR
 
