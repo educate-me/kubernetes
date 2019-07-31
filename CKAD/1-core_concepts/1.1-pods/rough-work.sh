@@ -17,8 +17,6 @@ kubectl create -f filename.yaml
 
 # Command to edit pod configuration directly
 kubectl edit po redis
-
 OR
-
 # Command to edit pod configuration using editing YAML
 kubectl apply -f filename.yaml
